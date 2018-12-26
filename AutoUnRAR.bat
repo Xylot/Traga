@@ -4,4 +4,4 @@ set arg1=%1
 set arg2=%2
 shift
 shift
-python "C:\Program Files\WinRAR\AUR.py" "%arg1%" "%arg2%"
+python "C:\Users\Joseph\Documents\GitHub\Traga\AUR.py" "%arg1%" "%arg2%"
