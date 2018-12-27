@@ -1,2 +1,2 @@
-# AutoExtractor
+# Traga
 Automatically extracts torrents
