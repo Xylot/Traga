@@ -17,7 +17,7 @@ In qBittorrent, this is done by:
 
 For example, my function call looks like:
 
-    C:/Users/Joseph/AppData/Local/Programs/Python/Python37/python.exe C:/Users/Joseph/Documents/GitHub/Traga/TorrentManager.py "%N" "%L" "%G" "%F" "%R" "%D" "%C" "%Z" "%T" "%I"
+    C:/Users/Joseph/AppData/Local/Programs/Python/Python37/python.exe C:/Users/Joseph/Documents/GitHub/Traga/Traga.py "%N" "%L" "%G" "%F" "%R" "%D" "%C" "%Z" "%T" "%I"
 
 NOTE: Parameter names will vary from client to client, so be sure to pass the correct ones
 
@@ -28,7 +28,7 @@ This script will only extract multi-part rar files meaning any media that is has
     *.r02
     ...
 
-Finally, you'll need to specifiy a couple of file paths for basic configuration in the body of TorrentManager.py:
+Finally, you'll need to specifiy a couple of file paths for basic configuration in the body of Traga.py:
 	
 	WinRar Path -> WINRAR_PATH = Path(%YOUR PATH HERE%).absolute()
 	Destination Path -> DESTINATION_PATH = Path(%YOUR PATH HERE%).absolute()
